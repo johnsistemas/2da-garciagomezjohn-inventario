@@ -1,0 +1,127 @@
+/* asi se escriben los comentarios */
+/* para saber que estoy hablando de una clase le coloco antes el . */
+/* el * al inicio sirve para resetear en este caso las fuente de texto*/
+* {
+    font-family: " Roboto",
+        sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* css del footer*/
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #e3e9e9;
+}
+
+/*header* con justify flex-end envio al final */
+.menu-inicio {
+    background-color: #c7dff3;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+/* menu */
+.container-fluid {
+    background-color: #0082c3;
+    background: opacity 0;
+}
+
+.navbar-brand {}
+
+
+.cont-menu {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    align-items: center;
+}
+
+/* esto es para quitarle los puntico a las listas desordenadas y cambiar el color a las letras  */
+.nav-link {
+    list-style: none;
+    color: #e3e9e9;
+}
+
+/* esto le quita la decoracion  o la linea de abajo del menu */
+.menu li a {
+    text-decoration: none;
+}
+
+/* hover le coloca color cuando esta sobre la letra  */
+.navbar-nav a:hover {
+    color: #d47e0e;
+}
+
+/* active le coloca color cuando esta activo el menu  */
+.menu li a:active {
+    color: darkgreen;
+}
+
+/*
+.menu-img {
+    display: flex;
+    justify-content: space-evenly;
+    width: 2%;
+    align-items: left;
+}*/
+
+/*main*/
+.contenido {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+.servicios {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.espacios {
+    margin: 10 0;
+}
+
+.articulo-recuadro {
+
+    border: 1px solid #165480;
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    justify-content: flex-end;
+}
+
+.contenedor-imagenes {
+
+    background-position: top;
+    background-size: contain;
+    height: 700px;
+}
+
+.contenedor-imagenes img {
+    width: 50%;
+
+}
+
+.menu-izquierdo {
+    background-color: #f29451;
+}
+
+.title-primary {
+    color: #f0edede0;
+    font-size: 9em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+}
