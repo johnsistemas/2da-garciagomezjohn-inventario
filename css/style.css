@@ -109,7 +109,7 @@
 }
 
 .contenedor-imagenes img {
-    width: 50%;
+    width: 30%;
 
 }
 
@@ -124,4 +124,24 @@
     justify-content: center;
     align-items: center;
     height: 70%;
+}
+
+/* franja que divide la imagen con servicios */
+.franja {
+    background-color: #0082c3;
+}
+
+
+
+
+/* servicios, y efecto se zoom */
+.card-border {
+    border: solid 5px #5789f7;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+}
+
+.card-border:hover {
+    transform: scale(1.05);
 }
