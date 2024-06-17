@@ -16,6 +16,20 @@
     background-color: #e3e9e9;
 }
 
+#sidebar-container {
+    min-height: 100vh;
+}
+
+#sidebar-container .menu {
+    width: 12rem;
+
+}
+
+
+.menu a:hover {
+    text-decoration: none;
+}
+
 /*header* con justify flex-end envio al final */
 .menu-inicio {
     background-color: #c7dff3;
@@ -152,4 +166,11 @@
 
 .card-border:hover {
     transform: scale(1.05);
+}
+
+/* estilos para el contenido de inventarios   */
+#contenido {
+    overflow-y: auto;
+    height: 100vh;
+    padding-bottom: 5rem;
 }

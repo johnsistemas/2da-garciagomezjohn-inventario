@@ -39,63 +39,83 @@
         </nav>
 
     </header>
-    <!--Menu lateral izquierdo-->
-    <section class="menu-izquierdo">
+    <!--Menu lateral izquierdo le coloque d-flex que es display flex-->
+    <section>
+        <div class="d-flex  ">
+            <div id="sidebar-container" class="bg-primary">
+                <div class="logo">
+                    <h4 class="text-center text-light p-3">Inventario</h4>
 
-        <h2>Cliente</h2>
-        <img src="../assets/loginpeque.png" alt="Usuario">
-        <p class="espacios">Nombre del Usuario</p>
+                </div>
+                <div class="menu flex-column">
+                    <a href="#" class="d-block text-light p-3"><svg xmlns="http://www.w3.org/2000/svg" width="40"
+                            height="20" fill="currentColor" class="bi bi-speedometer2 " viewBox="0 0 16 16">
+                            <path
+                                d="M8 4a.5.5 0 0 1 .5.5V6a.5.5 0 0 1-1 0V4.5A.5.5 0 0 1 8 4M3.732 5.732a.5.5 0 0 1 .707 0l.915.914a.5.5 0 1 1-.708.708l-.914-.915a.5.5 0 0 1 0-.707M2 10a.5.5 0 0 1 .5-.5h1.586a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 10m9.5 0a.5.5 0 0 1 .5-.5h1.5a.5.5 0 0 1 0 1H12a.5.5 0 0 1-.5-.5m.754-4.246a.39.39 0 0 0-.527-.02L7.547 9.31a.91.91 0 1 0 1.302 1.258l3.434-4.297a.39.39 0 0 0-.029-.518z" />
+                            <path fill-rule="evenodd"
+                                d="M0 10a8 8 0 1 1 15.547 2.661c-.442 1.253-1.845 1.602-2.932 1.25C11.309 13.488 9.475 13 8 13c-1.474 0-3.31.488-4.615.911-1.087.352-2.49.003-2.932-1.25A8 8 0 0 1 0 10m8-7a7 7 0 0 0-6.603 9.329c.203.575.923.876 1.68.63C4.397 12.533 6.358 12 8 12s3.604.532 4.923.96c.757.245 1.477-.056 1.68-.631A7 7 0 0 0 8 3" />
+                        </svg>Dashboard</a>
+                    <a href="#" class="d-block text-light p-3"><svg xmlns="http://www.w3.org/2000/svg" width="40"
+                            height="20" fill="currentColor" class="bi bi-house-add" viewBox="0 0 16 16">
+                            <path
+                                d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h4a.5.5 0 1 0 0-1h-4a.5.5 0 0 1-.5-.5V7.207l5-5 6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z" />
+                            <path
+                                d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0m-3.5-2a.5.5 0 0 0-.5.5v1h-1a.5.5 0 0 0 0 1h1v1a.5.5 0 1 0 1 0v-1h1a.5.5 0 1 0 0-1h-1v-1a.5.5 0 0 0-.5-.5" />
+                        </svg>Dependencias</a>
+                    <a href="#" class="d-block text-light p-3"><svg xmlns="http://www.w3.org/2000/svg" width="40"
+                            height="20" fill="currentColor" class="bi bi-person-add" viewBox="0 0 16 16">
+                            <path
+                                d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7m.5-5v1h1a.5.5 0 0 1 0 1h-1v1a.5.5 0 0 1-1 0v-1h-1a.5.5 0 0 1 0-1h1v-1a.5.5 0 0 1 1 0m-2-6a3 3 0 1 1-6 0 3 3 0 0 1 6 0M8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4" />
+                            <path
+                                d="M8.256 14a4.5 4.5 0 0 1-.229-1.004H3c.001-.246.154-.986.832-1.664C4.484 10.68 5.711 10 8 10q.39 0 .74.025c.226-.341.496-.65.804-.918Q8.844 9.002 8 9c-5 0-6 3-6 4s1 1 1 1z" />
+                        </svg>Usuarios</a>
+                    <a href="#" class="d-block text-light p-3"><i class="bi bi-motherboard"></i><svg
+                            xmlns="http://www.w3.org/2000/svg" width="40" height="20" fill="currentColor"
+                            class="bi bi-motherboard" viewBox="0 0 16 16">
+                            <path
+                                d="M11.5 2a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5m2 0a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5m-10 8a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1zm0 2a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1zM5 3a1 1 0 0 0-1 1h-.5a.5.5 0 0 0 0 1H4v1h-.5a.5.5 0 0 0 0 1H4a1 1 0 0 0 1 1v.5a.5.5 0 0 0 1 0V8h1v.5a.5.5 0 0 0 1 0V8a1 1 0 0 0 1-1h.5a.5.5 0 0 0 0-1H9V5h.5a.5.5 0 0 0 0-1H9a1 1 0 0 0-1-1v-.5a.5.5 0 0 0-1 0V3H6v-.5a.5.5 0 0 0-1 0zm0 1h3v3H5zm6.5 7a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5z" />
+                            <path
+                                d="M1 2a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-2H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 9H1V8H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6H1V5H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 2zm1 11a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1z" />
+                        </svg>Hardware</a>
+                    <a href="#" class="d-block text-light  p-3  "><svg xmlns="http://www.w3.org/2000/svg" width="40"
+                            height="20" fill="currentColor" class="bi bi-code-square" viewBox="0 0 16 16">
+                            <path
+                                d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z" />
+                            <path
+                                d="M6.854 4.646a.5.5 0 0 1 0 .708L4.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0m2.292 0a.5.5 0 0 0 0 .708L11.793 8l-2.647 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708 0 " />
+                        </svg>Software</a>
 
-        <img src="../assets/inv3.png" alt="Dashboard">
-        <p class="espacios">Dashboard</p>
-        <img src="../assets/inv1.png" alt="Sedes">
-        <p>Sedes</p>
-        <img src="../assets/inv2.png" alt="Usuarios">
-        <p class="espacios">Usuarios</p>
-        <form class="espacios">
-            <select name="Usuarios:" id="">
-                <option value="">Agregar usuario</option>
-                <option value="">Lista de Usuarios</option>
-                <option value="">Buscar Usuarios</option>
-            </select>
-        </form>
-        <img src="../assets/inv6.png" alt="Elementos">
-        <p class="espacios ">Elementos</p>
-        <select name="Usuarios:" id="" class="espacios ">
-            <option value="">Agregar Elemento</option>
-            <option value="">Lista de Elementoss</option>
-            <option value="">Buscar Elementos</option>
-        </select>
-        <img src="../assets/inv5.png" alt="Reportes">
-        <p class="espacios ">Reportes</p>
-        <select name="Usuarios:" id="">
-            <option value="">Agregar Reporte</option>
-            <option value="">Buscar Reporte</option>
-        </select>
+                </div>
 
+            </div>
     </section>
     <main>
-        <!--Menu central-->
-        <h1>Nuevo Producto</h1>
-        <section>
-            <form action="" method="post">
-                <label for="usuario">categoria:</label><br>
-                <select name="software:" id="">
-                    <option value="">software</option>
-                    <option value="">Hardware</option>
-                </select>
+        <div id="contenido">
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-9">
+                            <h1>Bienvenido al modulo Hardware</h1>
+                            <p>Aquí podrás ingresar las partes de tu quipo</p>
 
-                <label for="usuario">Procesador:</label><br>
-                <select name="procesador:" id="">
-                    <option value="">Intel</option>
-                    <option value="">AMD</option>
-                </select>
-            </form>
-            <input type="submit" value="Guardar">
+                        </div>
+                        <div class="col-lg-3">
+
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+
 
         </section>
 
     </main>
+
+
+
+
     <footer class="footer">
         <!--imagenes de redes socialales-->
         <img src="../assets/footer-redesins.png" alt="instagram">
