@@ -30,7 +30,11 @@
     background: opacity 0;
 }
 
+.card .img-fit {
+    aspect-ratio: 16/9;
+    object-fit: cover;
 
+}
 
 
 .cont-menu {
@@ -140,6 +144,10 @@
     border-radius: 10px;
     overflow: hidden;
     transition: all ease-out 0.2s;
+}
+
+.card {
+    height: 100%;
 }
 
 .card-border:hover {
