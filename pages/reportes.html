@@ -38,21 +38,17 @@
                 </div>
             </div>
         </nav>
-        <nav class="cont-menu">
-            <!--con esta etiqueta declaro el menu -->
 
 
-        </nav>
 
-
-    </header>
+    </header> <!-- card de resumen  -->
     <Main>
         <div id="contenedor">
             <section class="py-4">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-9">
-                            <h1 class="font-weight-bold mb-0 ">Bienvenido al modulo de reportes</h1>
+                            <h1 class="font-weight-bold mb-0 ">Bienvenido al módulo de reportes</h1>
                             <p class="lead text-muted p-2"> Aquí podrán tener una visión
                                 detallada y precisa de los datos de la compañia </p>
 
@@ -69,17 +65,17 @@
                     <div class="card">
                         <div class="card-body">
                             <div class="row">
-                                <div class="col-lg-3 stat my-3">
-                                    <h5 class="text-muted">Proyectores totales</h5>
-                                    <h3 class="font-weight-bold">30</h3>
+                                <div class="col-lg-3  my-3">
+                                    <h5 class="text-muted">Equipos totales</h5>
+                                    <h3 class="font-weight-bold ">30</h3>
 
                                 </div>
-                                <div class="col-lg-3 stat my-3">
+                                <div class="col-lg-3  my-3">
                                     <h5 class="text-muted">Portatiles totales</h5>
                                     <h3 class="font-weight-bold">60</h3>
 
                                 </div>
-                                <div class="col-lg-3 stat my-3">
+                                <div class="col-lg-3  my-3">
                                     <h5 class="text-muted">Impresoras totales</h5>
                                     <h3 class="font-weight-bold">21</h3>
 
@@ -98,13 +94,15 @@
                 </div>
 
             </section>
-            <section>
+            <!-- card de reportes personalizados por dependencias  -->
+            <section class="py-4">
+
                 <div class="container">
-                    <h4 class="mt-5"> Dependencias</h4>
+                    <h4 class="pb-3"> Dependencias</h4>
                     <div class="card">
                         <div class="card-body">
                             <div class="row">
-                                <div class="col-lg-3">
+                                <div class="col-lg-3 g-3">
                                     <select class="form-select" aria-label="Default select example">
                                         <option selected>Seleccione la dependencia</option>
                                         <option value="1">Rectoria</option>
@@ -113,7 +111,7 @@
                                     </select>
 
                                 </div>
-                                <div class="col-lg-3">
+                                <div class="col-lg-3 g-3">
                                     <select class="form-select" aria-label="Default select example">
                                         <option selected>Seleccione Hardware</option>
                                         <option value="1">Impresora</option>
@@ -122,16 +120,16 @@
                                     </select>
 
                                 </div>
-                                <div class="col-lg-3">
+                                <div class="col-lg-3 g-3">
                                     <select class="form-select" aria-label="Default select example">
-                                        <option selected>Selecciones la licencia</option>
-                                        <option value="1">Windows</option>
-                                        <option value="2">Linux</option>
-                                        <option value="3">Ios</option>
+                                        <option selected>Usuario</option>
+                                        <option value="1">Pepito Perez</option>
+                                        <option value="2">Juanito Gomez</option>
+                                        <option value="3">Antonia Reyes</option>
                                     </select>
 
                                 </div>
-                                <div class="col-lg-3">
+                                <div class="col-lg-3 g-3">
                                     <button class="btn btn-primary w-100">Generar reporte</button>
 
                                 </div>
@@ -139,6 +137,171 @@
                         </div>
                     </div>
                 </div>
+            </section>
+            <!-- Reportes personalizados Portatiles-->
+            <section>
+                <div class="container">
+                    <h4>Hardware</h4>
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-lg-3  my-3  ">
+                                    <h4 class="text-muted text-center ">Portátiles</h4>
+                                    <select class="form-select mb-2" aria-label="Default select example">
+                                        <option selected>Selecciona una marca</option>
+                                        <option value="1">Lenovo</option>
+                                        <option value="2">Hp</option>
+                                        <option value="3">Dell</option>
+                                        <option value="4">Mac</option>
+                                        <option value="5">Todas</option>
+                                    </select>
+                                    <select class="form-select mb-2" aria-label="Default select example">
+                                        <option selected>Selecciona un procesador</option>
+                                        <option value="1">Intel</option>
+                                        <option value="2">Amd</option>
+                                        <option value="3">Todos</option>
+                                    </select>
+                                    <select class="form-select mb-2" aria-label="Default select example">
+                                        <option selected>Versión de procesador</option>
+                                        <option value="1">Core i9</option>
+                                        <option value="2">Core i7</option>
+                                        <option value="3">Core i5</option>
+                                        <option value="4">Ryzen 9000</option>
+                                        <option value="5">Ryzen 8000</option>
+                                        <option value="6">Ryzen 7000</option>
+                                        <option value="7">Todos</option>
+                                    </select>
+                                    <select class="form-select mb-2" aria-label="Default select example">
+                                        <option selected>Memoria Ram</option>
+                                        <option value="1">4 Gb</option>
+                                        <option value="2">8 Gb</option>
+                                        <option value="3">16 Gb</option>
+                                        <option value="4">32 Gb</option>
+                                        <option value="4">Todas</option>
+                                    </select>
+                                    <select class="form-select mb-2" aria-label="Default select example">
+                                        <option selected>versión de reporte</option>
+                                        <option value="1">PDF</option>
+                                        <option value="2">Xlsx</option>
+                                    </select>
+                                    <button class="btn btn-primary ">Generar reporte</button>
+
+
+                                </div>
+                                <!-- Reportes personalizados AIO-->
+                                <div class="col-lg-3  my-3 ">
+                                    <h4 class="text-muted text-center">AIO</h4>
+                                    <select class="form-select mb-2" aria-label="Default select example">
+                                        <option selected>Selecciona una marca</option>
+                                        <option value="1">Lenovo</option>
+                                        <option value="2">Hp</option>
+                                        <option value="3">Dell</option>
+                                        <option value="4">Mac</option>
+                                        <option value="5">Todas</option>
+                                    </select>
+                                    <select class="form-select mb-2" aria-label="Default select example">
+                                        <option selected>Selecciona un procesador</option>
+                                        <option value="1">Intel</option>
+                                        <option value="2">Amd</option>
+                                        <option value="3">Todos</option>
+                                    </select>
+                                    <select class="form-select mb-2" aria-label="Default select example">
+                                        <option selected>Versión de procesador</option>
+                                        <option value="1">Core i9</option>
+                                        <option value="2">Core i7</option>
+                                        <option value="3">Core i5</option>
+                                        <option value="4">Ryzen 9000</option>
+                                        <option value="5">Ryzen 8000</option>
+                                        <option value="6">Ryzen 7000</option>
+                                        <option value="7">Todos</option>
+                                    </select>
+                                    <select class="form-select mb-2" aria-label="Default select example">
+                                        <option selected>Memoria Ram</option>
+                                        <option value="1">4 Gb</option>
+                                        <option value="2">8 Gb</option>
+                                        <option value="3">16 Gb</option>
+                                        <option value="4">32 Gb</option>
+                                        <option value="4">Todas</option>
+                                    </select>
+                                    <select class="form-select mb-2" aria-label="Default select example">
+                                        <option selected>versión de reporte</option>
+                                        <option value="1">PDF</option>
+                                        <option value="2">Xlsx</option>
+                                    </select>
+                                    <button class="btn btn-primary ">Generar reporte</button>
+
+                                </div>
+                                <!-- Reportes personalizados de Impresoras -->
+                                <div class="col-lg-3  my-3 ">
+                                    <h4 class="text-muted text-center">Impresoras</h4>
+                                    <select class="form-select mb-2" aria-label="Default select example">
+                                        <option selected>Selecciona una marca</option>
+                                        <option value="1">Epson</option>
+                                        <option value="2">Hp</option>
+                                        <option value="3">Canon</option>
+                                        <option value="4">Brother</option>
+                                        <option value="5">Todas</option>
+                                    </select>
+                                    <select class="form-select mb-2" aria-label="Default select example">
+                                        <option selected>Tipo de impresión</option>
+                                        <option value="1">Laser</option>
+                                        <option value="2">Inyección</option>
+                                        <option value="3">Todos</option>
+                                    </select>
+                                    <select class="form-select mb-2" aria-label="Default select example">
+                                        <option selected>Tipo de Conexión</option>
+                                        <option value="1">Usb</option>
+                                        <option value="2">Red</option>
+                                        <option value="3">Todos</option>
+                                    </select>
+
+                                    <select class="form-select mb-2" aria-label="Default select example">
+                                        <option selected>versión de reporte</option>
+                                        <option value="1">PDF</option>
+                                        <option value="2">Xlsx</option>
+                                    </select>
+                                    <button class="btn btn-primary ">Generar reporte</button>
+
+                                </div>
+                                <!-- Reportes personalizados de Scanner -->
+                                <div class="col-lg-3  my-3  ">
+                                    <h4 class="text-muted text-center ">Scanner</h4>
+                                    <select class="form-select mb-2" aria-label="Default select example">
+                                        <option selected>Selecciona una marca</option>
+                                        <option value="1">Canon</option>
+                                        <option value="2">Hp</option>
+                                        <option value="3">Kodak</option>
+                                        <option value="4">Todas</option>
+                                    </select>
+                                    <select class="form-select mb-2" aria-label="Default select example">
+                                        <option selected>Selecciona alimentador</option>
+                                        <option value="1">Cristal</option>
+                                        <option value="2">Adf</option>
+                                        <option value="3">Todos</option>
+                                    </select>
+                                    <select class="form-select mb-2" aria-label="Default select example">
+                                        <option selected>duplex</option>
+                                        <option value="1">Si</option>
+                                        <option value="2">No</option>
+                                        <option value="3">Todos</option>
+                                    </select>
+
+
+                                    <select class="form-select mb-2" aria-label="Default select example">
+                                        <option selected>versión de reporte</option>
+                                        <option value="1">PDF</option>
+                                        <option value="2">Xlsx</option>
+                                    </select>
+                                    <button class="btn btn-primary ">Generar reporte</button>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
             </section>
         </div>
 
@@ -199,15 +362,33 @@
 
 
     </Main>
-    <footer class="footer">
+    <footer>
+        <div class="container-fluid mt-4 ">
+            <div class="row">
+                <div class="col-4 img-fit pt-3">
+                    <img src="../assets/footer-redesins.png" alt="instagram">
+                    <img src="../assets/footer-redeswt.png" alt="whatsapp">
+                    <img src="../assets/footer-redesin2.png" alt="linkedin">
+
+                </div>
+                <div class="col-4 text-center pt-5 bs-success-text-emphasis">
+                    <p>Bogota, Colombia |Ayudas tecnologicas </p>
+
+                </div>
+                <div class="col-4 img-fit">
+                    <img src="../assets/brand-03.png" class="rounded float-end" alt="logo">
+                </div>
+
+            </div>
+
+            <!--parrafo de direccion, telefono y copyright-->
+
+            <!--logo-->
+
+
+        </div>
         <!--imagenes de redes socialales-->
-        <img src="../assets/footer-redesins.png" alt="instagram">
-        <img src="../assets/footer-redeswt.png" alt="whatsapp">
-        <img src="../assets/footer-redesin2.png" alt="linkedin">
-        <!--parrafo de direccion, telefono y copyright-->
-        <p>Bogota, Colombia |Ayudas tecnologicas </p>
-        <!--logo-->
-        <img src="../assets/LOGOP.png" alt="logo">
+
 
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
