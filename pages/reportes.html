@@ -41,7 +41,7 @@
 
 
 
-    </header> <!-- card de resumen  -->
+    </header>
     <Main>
         <div id="contenedor">
             <section class="py-4">
@@ -60,6 +60,7 @@
                     </div>
                 </div>
             </section>
+
             <section>
                 <div class="container">
                     <div class="card">
@@ -93,6 +94,43 @@
 
                 </div>
 
+            </section>
+            <!-- reporte por seriales  -->
+            <section>
+                <div class="container p-3">
+                    <h4 class="pb-3"> Reporte por Inventario</h4>
+                    <div class="card p-2">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <label for="exampleDataList" class="form-label">Número de inventario</label>
+                                <input class="form-control" list="datalistOptions" id="exampleDataList"
+                                    placeholder="Escribe el número de inventario...">
+                                <datalist id="datalistOptions">
+                                    <option value="invcasaprov0000015">
+                                    <option value="invcasaprov0000025">
+                                    <option value="invcasaprov0000035">
+                                    <option value="invcasaprov0000045">
+                                    <option value="invcasaprov0000055">
+                                </datalist>
+                            </div>
+                            <div class="col-lg-3 ">
+                                </select>
+                                <label for="exampleDataList" class="form-label">Tipo de reporte</label>
+                                <select class="form-select mb-2" aria-label="Default select example">
+                                    <option selected>versión de reporte</option>
+                                    <option value="1">PDF</option>
+                                    <option value="2">Xlsx</option>
+                                </select>
+
+                            </div>
+
+                            <div class="col-lg-3 g-3 pt-3">
+                                <button class="btn btn-primary w-100">Generar reporte</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
             <!-- card de reportes personalizados por dependencias  -->
             <section class="py-4">
@@ -129,6 +167,7 @@
                                     </select>
 
                                 </div>
+
                                 <div class="col-lg-3 g-3">
                                     <button class="btn btn-primary w-100">Generar reporte</button>
 
@@ -304,62 +343,6 @@
 
             </section>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <H1>REPORTES</H1>
-        <p>
-            , las funciones principales que el modulo ofrece son las sigientes:</p><br>
-        <!--se crea una lista de las funciones que se puede realizar con los informes-->
-        <ul>
-            <li>Generar reportes personalizados</li>
-            <li>Exportar en multiples formatos</li>
-            <li>Filtrado y segmentacion Avanzada</li>
-
-        </ul>
-
-        <form action="" method="post">
-            <label for="">Seleciona la dependencia</label>
-            <select name="" id="">
-                <option value="">Toda la sede</option>
-                <option value="">Sala de Sistemas</option>
-                <option value="">Rectoria</option>
-                <option value="">Biblioteca</option>
-
-            </select><br>
-
-            <label for="">Seleciona el numero de inventario</label>
-            <select name="" id="">
-                <option value="">Todos </option>
-                <option value="">inv00001</option>
-                <option value="">inv00002</option>
-                <option value="">inv00003</option>
-            </select><br>
-
-            <label for="">Seleciona el formato</label>
-            <select name="" id="">
-                <option value="">PDF </option>
-                <option value="">Excel</option>
-            </select><br>
-            <!--Creacion del boton para generar el reporte-->
-            <input type="submit" value="Generar reporte">
-
-        </form>
-
 
     </Main>
     <footer>
