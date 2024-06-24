@@ -179,3 +179,11 @@
 .stat {
     border-right: 1px solid;
 }
+
+.colorfondo {
+    background-color: #0082c3;
+}
+
+.login-icon {
+    height: 7rem;
+}
