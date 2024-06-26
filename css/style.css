@@ -47,6 +47,9 @@
 
 .card .img-fit {
     aspect-ratio: 16/9;
+    /* width: 15rem;
+    height: 15rem;
+    padding-left: 15% */
     object-fit: cover;
 
 }
