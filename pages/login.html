@@ -13,6 +13,7 @@
 
 <body>
     <header>
+
         <nav class="navbar navbar-expand-md navbar-dark ">
             <div class="container-fluid ">
 
@@ -39,28 +40,59 @@
         </nav>
     </header>
     <main>
-        <img src="../assets/loging.png" alt="">
-        <!--Aqui estoy colocando el formulario para el ingreso-->
-        <form action="" method="post">
-            <label for="usuario">USUARIO:</label><br>
-            <input type="text" id="usuario" name="usuario" placeholder="Pepito Perez"><br>
-            <label for="pwd">CLAVE:</label><br>
-            <input type="password" id="pwd" name="pwd" placeholder="Escribe tu contraseña">
+        <div class="bg-info d-flex justify-content-center align-items-center vh-100">
+            <!--Aqui estoy colocando el formulario para el ingreso-->
+            <div>
+                <div class="mb-4">
+                    <h1 class="text-center fw-bold ">Bienvenidos</h1>
+                </div>
 
-            <!--Aqui coloco el selector de empresa o sede en el select -->
-            <select name="SEDE:" id="">
-                <label for="sede">Sede:</label><br>
-                <option value="">Colegio Tunja</option>
-                <option value="">Colegio Fusa</option>
-                <option value="">Colegio Centro</option>
-                <option value="">Casa Provincial</option>
-                <option value="">Casa Central</option>
-                <br>
-            </select>
+                <div class="bg-white p-5 rounded-5 text-secondary">
+                    <div class="d-flex justify-content-center">
+                        <img class="login-icon" src="../assets/login-avatar.png" alt="login">
+                    </div>
+                    <div class="text-center fs-1 fw-bold p-4">
+                        <h2>Login</h2>
+                    </div>
+                    <!-- creo mi campo de usuario -->
+                    <div class="input-group">
+                        <div class="input-group-text bg-info">
+                            <img src="../assets/" alt="user-icon">
+                        </div>
+                        <input class="form-control bg-light" type="text" placeholder="usuario">
+                    </div>
+                    <!-- creo mi campo de clave -->
+                    <div class="input-group mt-2">
+                        <div class="input-group-text bg-info">
+                            <img src="../assets/clave.svg" alt="user-clave">
+                        </div>
+                        <input class="form-control bg-light" type="password" placeholder="clave">
 
-            <input type="submit" value="Ingresar">
+                    </div>
+                    <div class="d-flex gap-2 mt-2">
+                        <div>
+                            <input class="form-check-input" type="checkbox" name="" id="">
+                        </div>
+                        <div>Recuerdame</div>
+                    </div>
+                    <div class="btn btn-info text-white w-100 mt-2 ">
+                        Ingresar
+                    </div>
+                    <div>
+                        <div class="mt-2">
+                            <a href="#">Olvide mi contraseña</a>
+                        </div>
+                    </div>
 
-        </form>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
 
     </main>
     <footer>
@@ -79,17 +111,8 @@
                 <div class="col-4 img-fit">
                     <img src="../assets/brand-03.png" class="rounded float-end" alt="logo">
                 </div>
-
             </div>
-
-            <!--parrafo de direccion, telefono y copyright-->
-
-            <!--logo-->
-
         </div>
-        <!--imagenes de redes socialales-->
-
-
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

@@ -198,3 +198,8 @@
     height: 100vh;
     padding-bottom: 5rem;
 }
+
+/* estilos para login */
+.login-icon {
+    width: 10rem;
+}
