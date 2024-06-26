@@ -43,11 +43,16 @@
 .container-fluid {
     background-color: #0082c3;
     background: opacity 0;
+
 }
 
 .card .img-fit {
-    aspect-ratio: 16/9;
-    object-fit: cover;
+    /*  aspect-ratio: 16/9; */
+    width: 70%;
+    /* width: 15rem;
+    height: 15rem;
+    padding-left: 15% */
+    /* object-fit: cover; */
 
 }
 
@@ -61,7 +66,7 @@
 .menu {
     display: flex;
     justify-content: space-evenly;
-    width: 50%;
+    width: 100%;
     align-items: center;
 }
 
@@ -178,12 +183,4 @@
 
 .stat {
     border-right: 1px solid;
-}
-
-.colorfondo {
-    background-color: #0082c3;
-}
-
-.login-icon {
-    height: 7rem;
 }
