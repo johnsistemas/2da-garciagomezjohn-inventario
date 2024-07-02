@@ -1,0 +1,64 @@
+* {
+  font-family: " Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu-inicio {
+  background-color: #c7dff3;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+/* menu */
+.container-fluid {
+  background-color: #0082c3;
+  background: opacity 0;
+}
+
+.card .img-fit {
+  /*  aspect-ratio: 16/9; */
+  width: 70%;
+  /* width: 15rem;
+  height: 15rem;
+  padding-left: 15% */
+  /* object-fit: cover; */
+}
+
+.cont-menu {
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  align-items: center;
+}
+
+/* esto es para quitarle los puntico a las listas desordenadas y cambiar el color a las letras  */
+.nav-link {
+  list-style: none;
+  color: #e3e9e9;
+}
+
+/* esto le quita la decoracion  o la linea de abajo del menu */
+.menu li a {
+  text-decoration: none;
+}
+
+/* hover le coloca color cuando esta sobre la letra  */
+.navbar-nav a:hover {
+  color: #d47e0e;
+}
+
+/* active le coloca color cuando esta activo el menu  */
+.menu li a:active {
+  color: darkgreen;
+}
+
+/*# sourceMappingURL=main.css.map */
