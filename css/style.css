@@ -4,11 +4,7 @@
 
 
 /* css del footer*/
-.footer {
-    display: flex;
-    justify-content: center;
-    background-color: #e3e9e9;
-}
+
 
 /* #sidebar-container {
     min-height: 100vh;
@@ -19,9 +15,8 @@
 
 }
 
-.jbg-fondo {
-    background-image: radial-gradient(circle farthest-corner at 48.4% 47.5%, rgba(122, 183, 255, 1) 0%, rgba(21, 83, 161, 1) 90%);
-}
+/* fondo pagina */
+
 
 .menu a:hover {
     text-decoration: none;
@@ -38,7 +33,7 @@
 }*/
 
 /*main*/
-.container-fluid {
+.jbg-container {
     background-color: #0082c3;
     background: opacity 0;
 
@@ -111,7 +106,7 @@
 }
 
 .card {
-    height: 100%;
+    height: 50%;
 }
 
 .card-border:hover {
@@ -159,4 +154,13 @@
 
 .icon-clave {
     width: 1rem;
+}
+
+.espacios {
+    margin: 3px;
+}
+
+/* centrar iconos de servicios */
+.centrar {
+    justify-content: center;
 }
