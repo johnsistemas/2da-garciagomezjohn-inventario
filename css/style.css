@@ -144,6 +144,31 @@
     padding-bottom: 5rem;
 }
 
+.bi-speedometer2 {
+    width: 30px;
+    height: 20px;
+}
+
+.bi-house-add {
+    width: 30px;
+    height: 20px;
+}
+
+.bi-person-add {
+    width: 30px;
+    height: 20px;
+}
+
+.bi-motherboard {
+    width: 30px;
+    height: 20px;
+}
+
+.bi-code-square {
+    width: 30px;
+    height: 20px;
+}
+
 /* estilos para login */
 .login-icon {
     width: 10rem;
@@ -168,6 +193,10 @@
 
 /* Estilos de reportes */
 .jbg-cajas {
-    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
-
+    background: #ECE9E6;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
