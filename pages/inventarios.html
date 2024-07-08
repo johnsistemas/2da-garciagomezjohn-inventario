@@ -26,7 +26,7 @@
                     <ul class="navbar-nav ">
                         <li class="nav-item "><a class="nav-link fs-5" href="../index.html">Inicio</a>
                         </li>
-                        <li class="nav-item"><a class="nav-link fs-5" href="./inventarios.html">Inventaios</a>
+                        <li class="nav-item"><a class="nav-link fs-5" href="./inventarios.html">Inventarios</a>
                         </li>
                         <li class="nav-item"><a class="nav-link fs-5" href="../pages/reportes.html">Reportes</a></li>
                         <li class="nav-item"><a class="nav-link fs-5" href="../pages/sobre_nosotros.html">Nosotros</a>
@@ -40,7 +40,7 @@
     </header>
     <nav>
         <nav class="navbar navbar-expand-lg jbg-cajas">
-            <div class="container-fluid">
+            <div class="container-fluid ">
                 <a class="navbar-brand" href="#">INVENTARIOS</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -49,7 +49,7 @@
                 </button>
                 <!--  menu de inventarios -->
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0  ">
+                    <ul class="navbar-nav me-auto mb-2">
                         <li class="nav-item">
                             <a href="#" class="d-block text-dark p-3 raya lead"><svg xmlns="http://www.w3.org/2000/svg"
                                     fill="currentColor" class="bi bi-speedometer2 lead " viewBox="0 0 16 16">
@@ -113,6 +113,281 @@
             </div>
         </nav>
     </nav>
+    <!-- ingreso de informacion -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div col>
+                    <h1>Bienvenido al módulo inventarios</h1>
+                    <p>Aquí podran ingresar la información de los equipos </p>
+                </div>
+                <section>
+                    <div class="container p-3 ">
+                        <h4 class="pb-3"> Ingreso de equipos</h4>
+                        <div class="card p-2">
+                            <div class="row">
+                                <div class="col-lg-4 ">
+                                    <label for="exampleDataList" class="form-label">Sede</label>
+                                    <select class="form-select mb-2" aria-label="Default select example">
+                                        <option selected>seleccione la sede</option>
+                                        <option value="1">Casa Provincial</option>
+                                        <option value="2">Economato Provincial</option>
+                                        <option value="3">Casa Central</option>
+                                        <option value="4">Colegio centro</option>
+                                        <option value="5">Colegio Fátima</option>
+                                        <option value="6">Colegio Ferias</option>
+                                    </select>
+                                </div>
+                                <div class="col-lg-4 ">
+                                    <label for="exampleDataList" class="form-label">Dependencia</label>
+                                    <select class="form-select mb-2" aria-label="Default select example">
+                                        <option selected>Seleccione la dependencia</option>
+                                        <option value="1">Rectoría</option>
+                                        <option value="2">Secretaría</option>
+                                        <option value="3">Economato</option>
+                                        <option value="4">Sistemas</option>
+                                        <option value="5">Coordinación</option>
+                                        <option value="6">Biblioteca</option>
+                                    </select>
+                                </div>
+                                <div class="col-lg-4 ">
+                                    <label for="exampleDataList" class="form-label">Tipo</label>
+                                    <select class="form-select mb-2" aria-label="Default select example">
+                                        <option selected>Seleccione el tipo de Inventario</option>
+                                        <option value="1">Computador</option>
+                                        <option value="2">Impresora</option>
+                                        <option value="3">Scaner</option>
+                                        <option value="4">Redes</option>
+                                        <option value="5">Muebles</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <!-- segunda parte  -->
+
+                            <div class="row">
+                                <div class="col-lg-4 ">
+                                    <label for="exampleDataList" class="form-label">Artículo</label>
+                                    <select class="form-select mb-2" aria-label="Default select example">
+                                        <option selected>seleccione tipo de artículo</option>
+                                        <option value="1">AIO</option>
+                                        <option value="2">Portatil</option>
+                                        <option value="3">PC</option>
+                                        <option value="4">Monitor</option>
+                                    </select>
+                                </div>
+                                <div class="col-lg-4 ">
+                                    <label for="exampleDataList" class="form-label">Inventario</label>
+                                    <select class="form-select mb-2" aria-label="Default select example">
+                                        <option selected>seleccione el Inventario </option>
+                                        <option value="1">invcasaprov0000015</option>
+                                        <option value="2">invcasaprov0000016</option>
+                                        <option value="3">invcasaprov0000017</option>
+                                        <option value="4">invcasaprov0000018</option>
+                                    </select>
+                                </div>
+                                <div class="col-lg-3 g-3 pt-3">
+                                    <button class="btn btn-primary w-100">Empezar Inventario</button>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+    <!-- Ingreso de Hardware -->
+    <section>
+        <div class="container p-3 ">
+            <h4 class="pb-3"> Hardware</h4>
+            <div class="card p-2">
+                <div class="row">
+                    <div class="col-lg-3 ">
+                        <label for="exampleDataList" class="form-label">Tipo</label>
+                        <select class="form-select mb-2" aria-label="Default select example">
+                            <option selected>Tipo de equipo</option>
+                            <option value="1">AIO</option>
+                            <option value="2">Portatil</option>
+                            <option value="3">Torre</option>
+                            <option value="4">Monitor</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-3 ">
+                        <label for="exampleDataList" class="form-label">Marca</label>
+                        <select class="form-select mb-2" aria-label="Default select example">
+                            <option selected>Seleccione la marca del equipo</option>
+                            <option value="1">HP</option>
+                            <option value="2">Lenovo</option>
+                            <option value="3">Acer</option>
+                            <option value="4">Dell</option>
+                            <option value="5">Mac</option>
+                            <option value="6">Asus</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-3 ">
+                        <label for="exampleDataList" class="form-label">Modelo</label>
+                        <select class="form-select mb-2" aria-label="Default select example">
+                            <option selected>Seleccione el modelo del equipo</option>
+                            <option value="1">Thinkpad</option>
+                            <option value="2">Pavilion</option>
+                            <option value="3">Thincentre</option>
+                            <option value="4">Imac</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-3 ">
+                        <label for="exampleDataList" class="form-label">Pulgadas</label>
+                        <select class="form-select mb-2" aria-label="Default select example">
+                            <option selected>Seleccione el modelo del equipo</option>
+                            <option value="1">13</option>
+                            <option value="2">14</option>
+                            <option value="3">19</option>
+                            <option value="4">20</option>
+                            <option value="4">21</option>
+                            <option value="4">22</option>
+                            <option value="4">23</option>
+                            <option value="4">24</option>
+                            <option value="4">27</option>
+                            <option value="4">32</option>
+                        </select>
+                    </div>
+                </div>
+                <!-- Datos del Procesador -->
+                <div class="row">
+                    <div class="col-lg-3 ">
+                        <label for="exampleDataList" class="form-label text-muted">Número de serie</label>
+                        <input class="form-control" list="datalistOptions" id="exampleDataList"
+                            placeholder="Escribe el número de serie...">
+                        <datalist id="datalistOptions">
+                            <option value="39Adpxdtt">
+                            <option value="jd65tgdgwgwg">
+                            <option value="125SDFijderte">
+                            <option value="ASD1265fff">
+                        </datalist>
+                    </div>
+                    <div class="col-lg-3 ">
+                        <label for="exampleDataList" class="form-label">Procesador</label>
+                        <select class="form-select mb-2" aria-label="Default select example">
+                            <option selected>seleccione marca </option>
+                            <option value="1">AMD</option>
+                            <option value="2">Intel</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-3 ">
+                        <label for="exampleDataList" class="form-label">Modelo Procesador</label>
+                        <select class="form-select mb-2" aria-label="Default select example">
+                            <option selected>seleccione el modelo </option>
+                            <option value="1">Core I3</option>
+                            <option value="2">Core I5</option>
+                            <option value="2">Core I7</option>
+                            <option value="2">Core I9</option>
+                            <option value="2">Ryzen 3</option>
+                            <option value="2">Ryzen 5</option>
+                            <option value="2">Ryzen 7</option>
+                            <option value="2">Ryzen 9</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-3 ">
+                        <label for="exampleDataList" class="form-label">Generación</label>
+                        <select class="form-select mb-2" aria-label="Default select example">
+                            <option selected>seleccione la generación </option>
+                            <option value="1">4Th</option>
+                            <option value="2">5Th</option>
+                            <option value="1">6Th</option>
+                            <option value="2">7Th</option>
+                            <option value="1">8Th</option>
+                            <option value="2">9Th</option>
+                            <option value="2">10Th</option>
+                            <option value="1">11Th</option>
+                            <option value="2">12Th</option>
+                        </select>
+                    </div>
+                    <!-- Datos de la memoria  -->
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <label for="exampleDataList" class="form-label">Memoria</label>
+                            <select class="form-select mb-2" aria-label="Default select example">
+                                <option selected>marca </option>
+                                <option value="1">Kingston</option>
+                                <option value="2">Thermaltake</option>
+                                <option value="3">Corsair</option>
+                                <option value="4">Crucial</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-3">
+                            <label for="exampleDataList" class="form-label">Tipo de memoria</label>
+                            <select class="form-select mb-2" aria-label="Default select example">
+                                <option selected>seleccione tipo de memoria </option>
+                                <option value="1">DDR2</option>
+                                <option value="2">DDR3</option>
+                                <option value="3">DDR4</option>
+                                <option value="4">DDR5</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-3">
+                            <label for="exampleDataList" class="form-label">Capacidad</label>
+                            <select class="form-select mb-2" aria-label="Default select example">
+                                <option selected>seleccione Capacidad </option>
+                                <option value="1">2GB</option>
+                                <option value="2">4GB</option>
+                                <option value="2">8GB</option>
+                                <option value="2">16GB</option>
+                                <option value="2">32GB</option>
+                                <option value="2">64GB</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-3 g-3 pt-3">
+                            <button class="btn btn-primary w-100">Agregar otra</button>
+                        </div>
+                    </div>
+                    <!-- Datos del disco duro  -->
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <label for="exampleDataList" class="form-label">Disco Duro</label>
+                            <select class="form-select mb-2" aria-label="Default select example">
+                                <option selected>Marca </option>
+                                <option value="1">Kingston</option>
+                                <option value="2">Segate</option>
+                                <option value="3">Corsair</option>
+                                <option value="4">Crucial</option>
+                                <option value="4">WD</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-3">
+                            <label for="exampleDataList" class="form-label">Tipo de Disco</label>
+                            <select class="form-select mb-2" aria-label="Default select example">
+                                <option selected>seleccione tipo de Disco </option>
+                                <option value="1">Hdd</option>
+                                <option value="2">Ssd</option>
+                                <option value="3">M.2</option>
+                                <option value="4">Scsi</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-3">
+                            <label for="exampleDataList" class="form-label">Capacidad</label>
+                            <select class="form-select mb-2" aria-label="Default select example">
+                                <option selected>seleccione Capacidad </option>
+                                <option value="1">128GB</option>
+                                <option value="2">256GB</option>
+                                <option value="2">480GB</option>
+                                <option value="2">512GB</option>
+                                <option value="2">1TB</option>
+                                <option value="2">2TB</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-3 g-3 pt-3">
+                            <button class="btn btn-primary w-100">Agregar otra</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+
+
+
     <footer></footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

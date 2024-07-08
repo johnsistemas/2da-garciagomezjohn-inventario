@@ -191,12 +191,13 @@
     justify-content: center;
 }
 
-/* Estilos de reportes */
+/* Estilos fondos paina degradados */
 .jbg-cajas {
-    background: #ECE9E6;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #FFFFFF, #ECE9E6);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+
+/* menu de inicio */
+/* hover le coloca color cuando esta sobre la letra  */
+.navbar-nav a:hover {
+    color: #d47e0e;
 }
