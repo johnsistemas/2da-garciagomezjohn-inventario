@@ -201,3 +201,9 @@
 .navbar-nav a:hover {
     color: #d47e0e;
 }
+
+/* animacion logo */
+.bounce-in-top {
+    -webkit-animation: bounce-in-top 1.1s both;
+    animation: bounce-in-top 1.1s both;
+}
