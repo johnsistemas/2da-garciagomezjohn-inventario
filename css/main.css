@@ -1,3 +1,38 @@
+* {
+  font-family: " Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+.jbg-container {
+  background-color: #0082c3;
+  background: opacity 0;
+}
+
+/* esto es para quitarle los puntico a las listas desordenadas y cambiar el color a las letras  */
+.nav-link {
+  list-style: none;
+  color: #e3e9e9;
+}
+
+/* esto le quita la decoracion  o la linea de abajo del menu */
+.menu li a {
+  text-decoration: none;
+}
+
+/* hover le coloca color cuando esta sobre la letra  */
+.navbar-nav a:hover {
+  color: #d47e0e;
+}
+
+/* active le coloca color cuando esta activo el menu  */
+.menu li a:active {
+  color: darkgreen;
+}
+
+.jbg-fondo {
+  background-image: linear-gradient(89.5deg, rgb(255, 183, 131) 0.4%, rgb(66, 144, 251) 100.3%);
+}
 
 /*# sourceMappingURL=main.css.map */

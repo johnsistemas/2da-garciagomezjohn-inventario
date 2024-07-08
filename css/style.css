@@ -6,15 +6,7 @@
 /* css del footer*/
 
 
-#sidebar-container {
-    min-height: 100vh;
-    width: 13rem;
-}
 
-#sidebar-container .menu {
-    width: 12rem;
-
-}
 
 /* fondo pagina */
 
@@ -34,11 +26,8 @@
 }*/
 
 /*main*/
-.jbg-container {
-    background-color: #0082c3;
-    background: opacity 0;
 
-}
+
 
 .contenido {
     display: flex;
