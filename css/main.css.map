@@ -1,1 +1,11 @@
-{"version":3,"sourceRoot":"","sources":["../scss/config/_reset.scss","../scss/_cabeza.scss","../scss/_ingresar.scss","../scss/_principal.scss","../scss/_formularios.scss"],"names":[],"mappings":"AAAA;EACI;EAEA;EACA;EACA;;;ACLJ;EACI;EACA;;;AAIJ;AACA;EACI;EACA;;;AAGJ;AACA;EACI;;;AAGJ;AACA;EACI;;;AAKJ;AACA;EACI;;;AAIJ;EACI;;;AC9BJ;EACI;;;AAGJ;EACI;;;AAGJ;EACI;;;ACVJ;EACI;;;ACAJ;EACI;EACA;EACA;;;AAGJ;EACI;;;AAGJ;EACI;;;AAGJ;EACI;;;AAIJ;EACI;;;AAGJ;EACI;EACA;EACA;;;AAGJ;EACI;EACA;;;AAGJ;EACI;EACA;;;AAGJ;EACI;EACA;;;AAGJ;EACI;EACA;;;AAGJ;EACI;EACA","file":"main.css"}
+{
+    "version": 3,
+    "sourceRoot": "",
+    "sources": [
+        "../scss/config/_reset.scss",
+        "../scss/_cabeza.scss"
+    ],
+    "names": [],
+    "mappings": "AAAA;EACI;EAEA;EACA;EACA;;;ACLJ;EACI;EACA;;;AAIJ;AACA;EACI;EACA;;;AAGJ;AACA;EACI;;;AAGJ;AACA;EACI;;;AAKJ;AACA;EACI;;;AAIJ;EACI",
+    "file": "main.css"
+}
