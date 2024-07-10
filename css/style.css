@@ -54,12 +54,7 @@
     justify-content: flex-end;
 }
 
-.contenedor-imagenes {
 
-    background-position: top;
-    background-size: contain;
-    height: 20px;
-}
 
 .contenedor-imagenes img {
     width: 10%;

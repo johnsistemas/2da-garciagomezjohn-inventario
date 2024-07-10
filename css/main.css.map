@@ -1,11 +1,1 @@
-{
-    "version": 3,
-    "sourceRoot": "",
-    "sources": [
-        "../scss/config/_reset.scss",
-        "../scss/_cabeza.scss"
-    ],
-    "names": [],
-    "mappings": "AAAA;EACI;EAEA;EACA;EACA;;;ACLJ;EACI;EACA;;;AAIJ;AACA;EACI;EACA;;;AAGJ;AACA;EACI;;;AAGJ;AACA;EACI;;;AAKJ;AACA;EACI;;;AAIJ;EACI",
-    "file": "main.css"
-}
+{"version":3,"sourceRoot":"","sources":["../scss/config/_reset.scss","../scss/_cabeza.scss","../scss/_formularios.scss","../scss/_ingresar.scss","../scss/_principal.scss","../scss/_pie.scss"],"names":[],"mappings":"AAAA;EACI;EAEA;EACA;EACA;;;ACLJ;EACI;EACA;;;AAIJ;AACA;EACI;EACA;;;AAGJ;AACA;EACI;;;AAGJ;AACA;EACI;;;AAKJ;AACA;EACI;;;AAIJ;EACI;;;AC/BJ;EACI;;;ACAJ;EACI;;;AAGJ;EACI;;;AAGJ;EACI;;;ACVJ;EACI;;;AAGJ;EAEI;EAEA;EACA;;;AAGJ;EACI;EACA;;;ACdJ;EACI;EACA;EACA","file":"main.css"}
