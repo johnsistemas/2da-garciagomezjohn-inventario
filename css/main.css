@@ -82,7 +82,12 @@
 
 .jsub {
   padding: 30px 0px;
-  color: #f57f49;
+  color: #593fed;
+}
+
+.jsub2 {
+  padding: 0px 0px 10px 0px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .jimg {
