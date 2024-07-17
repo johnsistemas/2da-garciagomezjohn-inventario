@@ -10,33 +10,21 @@
     width: 350px;
 }
 
-/* .card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-} */
+.card-text {
+    width: 145%;
+}
 
 .jcard {
     position: relative;
     width: 100%;
-    height: 300px;
-    background: linear-gradient(45deg, #10214c, #da3dbe);
+    height: 260px;
+    background: linear-gradient(45deg, #74b3e3, #7094ce);
     overflow: hidden;
     border: none;
     margin: .5px;
-
     justify-content: flex-start;
     align-items: center;
 }
-
-
-
-//animaciones de la card
-
-
-
-
 
 
 // imagen de card
@@ -47,11 +35,11 @@
     transform: translate(-50%);
     height: 480px;
     left: 50%;
-    transition: all .5s;
+    transition: all .7s;
 }
 
 .jcard:hover .jimagenes {
-    left: 75%;
+    left: 80%;
     height: 480px;
 }
 
@@ -65,26 +53,27 @@
 
 //texto de card
 .espacios {
-    width: 30%;
-    position: absolute;
-    bottom: 2%;
-    text-align: justify;
-    z-index: 1;
+    width: 20%;
+    /* position: absolute; */
+    bottom: 3%;
+    text-align: left;
+    z-index: 0;
 }
 
 .espacios h2 {
-    font-size: 1.7em;
-    color: #260581;
+    font-size: 1.5em;
+    color: #ebe8f3;
     font-weight: 600;
-    text-transform: uppercase;
+    text-transform: capitalize;
     letter-spacing: 1px;
+    padding: auto;
 }
 
 .jcard .espacios {
     position: relative;
     width: 50%;
     left: 20%;
-    padding: 20px 20px 20px 40px;
+    padding: 40px 20px 20px 40px;
     color: #ffffff;
     opacity: 0;
     transition: all .5s;
