@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   font-family: " Roboto", sans-serif;
   margin: 0;
@@ -65,6 +64,74 @@
   background-position: top;
   height: 350px;
   width: 350px;
+}
+
+.jcard {
+  position: relative;
+  width: 33%;
+  height: 420px;
+  background: #9ec0f9;
+  overflow: hidden;
+  border: none;
+  margin: 1px;
+}
+
+.centrar {
+  margin-bottom: 10%;
+}
+
+.jcard::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  transform: skewY(345deg);
+  transition: all 0.5s;
+}
+
+.jcard:hover::before {
+  top: -70%;
+  transform: skewY(395deg);
+}
+
+.jcard:hover .jimagenes img {
+  max-width: 40%;
+  margin-bottom: 40%;
+}
+
+.espacios {
+  width: 100%;
+  position: absolute;
+  bottom: 12%;
+  text-align: center;
+  z-index: 1;
+}
+
+.espacios h3 {
+  font-size: 1.5vw;
+  color: #260581;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.jcard .jimagenes {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 70%;
+  transition: 0.5s;
+}
+
+.jcard .jimagenes img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .jbotones a :hover {
@@ -170,13 +237,6 @@
     opacity: 1;
   }
 }
-/* .jsomos .content-header {
-    width: 50%;
-} */
-/* .jtamaño {
-    width: 50vh;
-}
- */
 .footer {
   display: flex;
   justify-content: center;
